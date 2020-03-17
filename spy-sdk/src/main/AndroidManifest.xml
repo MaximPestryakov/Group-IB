@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.maximpestryakov.spysdk">
+
+    <application>
+
+        <provider
+            android:name=".SpySdkInitializer"
+            android:authorities="${applicationId}.spy-sdk"
+            android:exported="false"
+            android:multiprocess="true" />
+
+    </application>
+
+</manifest>
